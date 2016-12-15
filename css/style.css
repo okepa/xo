@@ -1,0 +1,18 @@
+body{
+    width: 40%;
+    margin: auto;
+}
+
+.grid {
+  display: flex;              
+  flex-wrap: wrap;                 
+  justify-content: space-around;
+  
+}
+.square {
+  flex: 0 0 32%;           
+  height: 150px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-color: black;
+}
